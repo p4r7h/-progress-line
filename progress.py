@@ -19,6 +19,6 @@ import time
 total = 1000
 i = 0
 while i < total:
-    progress(i, total, status='rootkit uploading...')
+    progress(i, total, status='file uploading...')
     time.sleep(0.2)  # emulating long-playing job
     i += 1
